@@ -1,10 +1,11 @@
 from itertools import combinations
 from itertools import product
+import itertools
 
 '''
 Using Itertools to form combinations with a given array
 from itertools import combinations
-combinations will form combinations of taking one element with remaining elements
+combinations will form combinations of taking sequential element with remaining elements
 pattern = [a,b,c,d,e] => (a,b),(a,c),(a,d),(a,e),(b,c),(b,d),(b,e),(c,d),(c,e),(d,e)
 
 from itertools import product
@@ -26,3 +27,16 @@ for data in combinations_single:
 		combinations_single.remove(data)
 
 # print(combinations_single)		
+
+'''
+Combination of uneven elemetns
+'''
+
+x = [1,2,3,4,5]
+y = ['a','b','c']
+
+uneven_combination = list(itertools.zip_longest(x,y))
+print("un even combinations")
+print(x)
+print(y)
+print(uneven_combination)
