@@ -9,6 +9,9 @@ https://www.geeksforgeeks.org/string-palindrome/
 - [Finding duplicates index in an array](https://github.com/codyowl/competitive-programming-patterns/blob/main/finding_duplicate_index_array.py)
 - [taking adjacent array element into a sub array](https://github.com/codyowl/competitive-programming-patterns/blob/main/taking_every_n_elements_array.py)
 
+## Linked list :
+- [Traversing a single linked list](https://github.com/codyowl/competitive-programming-patterns/blob/main/traversing_single_list.py)
+
 # Go:
 ## Arrays : 
  - [Array Rotation](https://github.com/codyowl/competitive-programming-patterns/blob/main/rotatingArray.go)
